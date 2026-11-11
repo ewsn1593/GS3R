@@ -1,6 +1,9 @@
 # [NeurIPS 2026] Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration
-
+[![arXiv](https://img.shields.io/badge/arXiv-2611.10881-b31b1b.svg)](https://arxiv.org/abs/2611.10881) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-blue.svg)](https://openreview.net/forum?id=wdIBHsopRB)  
 This repository is the official implementaiton of our paper __Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration__
+
+
+<img src="fig_main.png" width="100%" alt="GS3R overview">
 
 ## Installation
 We use docker for experiments
@@ -16,7 +19,7 @@ pip install -e . # install the package in editable mode => fusion bench
 pip install -r req.txt # install packages
 ```
 
-# EXP
+## Experiments
 
 Use commands in `exp_script` folder
 ```bash
