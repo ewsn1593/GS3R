@@ -1,6 +1,6 @@
 # [NeurIPS 2026] Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration
 [![arXiv](https://img.shields.io/badge/arXiv-2611.10881-b31b1b.svg)](https://arxiv.org/abs/2611.10881) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-blue.svg)](https://openreview.net/forum?id=wdIBHsopRB)  
-This repository is the official implementaiton of our paper __Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration__
+This repository is the official implementation of our paper __Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration__
 
 
 <img src="gs3r_overview.png" width="100%" alt="GS3R overview">
@@ -23,9 +23,9 @@ pip install -r req.txt # install packages
 
 Use commands in `exp_script` folder
 ```bash
-./exp_script/GS3R/exp_cont.sh # ViT-8-32 / 8 Tasks experiment
-./exp_script/GS3R_Trunc/exp_cont_trunc.sh # ViT-8-32 / 8 Tasks / truncated (r=256)  experiment
-./exp_script/GS3R_Opt/exp_cont_opt.sh # ViT-B-32 / 8 Tasks / +Optimization experiment
+./exp_script/GS3R/exp_cont.sh # ViT-B/32 / 8 Tasks experiment
+./exp_script/GS3R_Trunc/exp_cont_trunc.sh # ViT-B/32 / 8 Tasks / truncated (r=256)  experiment
+./exp_script/GS3R_Opt/exp_cont_opt.sh # ViT-B/32 / 8 Tasks / +Optimization experiment
 ```
 Output files will be placed in `outputs` folder
 
