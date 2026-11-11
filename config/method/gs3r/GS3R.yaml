@@ -1,0 +1,20 @@
+_target_: fusion_bench.method.gs3r.gs3r.GS3RForCLIP
+
+# shuffle the order of the models
+shuffle_order: true
+# the random seed to use
+seed: null
+# Rank
+k: -1
+# X merge keys
+remove_keys: null
+# save the merged model on every step
+save_on_every_step: false
+# evaluate the merged model on every step
+evaluate_on_every_step: false
+# iter num
+iter_num: 400
+# opt only last merge
+opt_only_last: true
+# Init from recon
+init_recon: false
