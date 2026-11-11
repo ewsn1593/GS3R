@@ -3,7 +3,7 @@
 This repository is the official implementaiton of our paper __Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration__
 
 
-<img src="fig_main.png" width="100%" alt="GS3R overview">
+<img src="gs3r_overview.png" width="100%" alt="GS3R overview">
 
 ## Installation
 We use docker for experiments
