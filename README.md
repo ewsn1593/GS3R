@@ -29,6 +29,28 @@ Use commands in `exp_script` folder
 ```
 Output files will be placed in `outputs` folder
 
+
+
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{shin2026robust,
+title={Robust and Efficient Continual Model Merging via Global Singular Subspace Separation and Restoration},
+author={Juncheol Shin and Byeongho Yu and Semin Kim and Eunhyeok Park},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+year={2026},
+url={https://openreview.net/forum?id=wdIBHsopRB}
+}
+```
+
+
+
+
+
+
 ## Acknowledgements
 
 This codebase is built on [FusionBench](https://github.com/tanganke/fusion_bench) (MIT License) and
